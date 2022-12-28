@@ -35,7 +35,7 @@ const Header = () => {
             <li>
                 <Link href="/login">
                     <button
-                        className=" bg-accent duration-300 hover:bg-secondary rounded  sm:px-3 px-2 md:mt-0 mt-2 py-1  text-white flex items-center"
+                        className=" focus:outline-none bg-gradient-to-tl from-primary to-accent rounded  sm:px-3 px-2 md:mt-0 mt-2 py-1  text-white flex items-center"
                     >
                         <BiLogIn className="text-xl "></BiLogIn>
                         <span className="  ml-1">Login</span>

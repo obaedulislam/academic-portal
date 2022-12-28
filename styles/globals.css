@@ -110,6 +110,9 @@ a {
 h1{
   font-family: 'Pattaya', sans-serif;
 }
+.font-special{
+  font-family: 'Pattaya', sans-serif;
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

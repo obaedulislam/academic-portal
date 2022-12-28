@@ -28,7 +28,7 @@ const Footer = () => {
                                     <label htmlFor="floating_outlined3" className="absolute text-sm text-gray-500  duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white  px-2 peer-focus:px-2 peer-focus:text-gray-900 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-1">Email Address</label>
                                 </div>
                                 <div className='w-[30%]'>
-                                    <button className='px-2.5 py-2.5  text-white bg-accent hover:bg-secondary capitalize w-full font-semibold'>Subscribe</button>
+                                    <button className='px-2.5 py-2.5  text-white focus:outline-none bg-gradient-to-tl from-primary to-accent capitalize w-full font-semibold'>Subscribe</button>
                                 </div>
                             </div>
                         </div>
