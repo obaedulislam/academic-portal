@@ -46,8 +46,8 @@ const Header = () => {
     );
 
     return (
-        <div className="bg-white sticky top-0 z-50">
-            <div className="max-w-[1200px] mx-auto p-0">
+        <div className="bg-white  border border-gray-200">
+            <div className="max-w-[1200px] mx-auto p-0 ">
                 <div className="navbar flex justify-between bg-base-100 p-0">
                     <div className="">
                         <div className="dropdown flex ">

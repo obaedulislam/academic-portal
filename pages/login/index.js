@@ -15,7 +15,7 @@ const Login = () => {
   return (
     <div className="h-full bg-base-200 w-full py-16 px-4">
       <div className="flex flex-col items-center justify-center">
-        <div className="bg-white shadow rounded lg:w-1/3  md:w-1/2 w-full p-5 md:p-10">
+        <div className="bg-white shadow-lg rounded lg:w-1/3  md:w-1/2 w-full p-5 md:p-10">
           <div>
             <p
               tabIndex={0}
@@ -56,7 +56,7 @@ const Login = () => {
                 />
                 <label
                   htmlFor="floating_outlined3"
-                  className="absolute text-sm text-gray-500  duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white  px-2 peer-focus:px-2 peer-focus:text-gray-900 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-1"
+                  className="absolute text-sm text-gray-500  duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white  px-2 peer-focus:px-2 peer-focus:text-primary peer-focus:font-semibold peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-1"
                 >
                   Email Address
                 </label>
@@ -73,7 +73,7 @@ const Login = () => {
                     />
                     <label
                       htmlFor="floating_outlined2"
-                      className="absolute text-sm text-gray-500  duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white  px-2 peer-focus:px-2 peer-focus:text-gray-900 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-1"
+                      className="absolute text-sm text-gray-500  duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white  px-2 peer-focus:px-2 peer-focus:text-primary peer-focus:font-semibold peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-1"
                     >
                       Password
                     </label>
@@ -106,7 +106,7 @@ const Login = () => {
               <p className="text-primary text-center mt-3 sm:text-md text-sm">
                 New to Academic Portal?
                 <Link href="/signup" className="text-accent font-bold">
-                  Create new account
+                  <span> Create new account</span>
                 </Link>
               </p>
             </div>
