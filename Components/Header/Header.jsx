@@ -23,6 +23,16 @@ const Header = () => {
                 </Link>
             </li>
             <li>
+                <Link href="/dashboard" className="flex items-center">
+                    Blog
+                </Link>
+            </li>
+            <li>
+                <Link href="/dashboard" className="flex items-center">
+                    About Us
+                </Link>
+            </li>
+            <li>
                 <Link href="/login">
                     <button
                         className=" bg-accent duration-300 hover:bg-secondary rounded  sm:px-3 px-2 md:mt-0 mt-2 py-1  text-white flex items-center"
@@ -37,8 +47,8 @@ const Header = () => {
 
     return (
         <div className="bg-white sticky top-0 z-50">
-            <div className="max-w-[1250px] mx-auto">
-                <div className="navbar flex justify-between bg-base-100">
+            <div className="max-w-[1200px] mx-auto p-0">
+                <div className="navbar flex justify-between bg-base-100 p-0">
                     <div className="">
                         <div className="dropdown flex ">
                             <ul
@@ -55,14 +65,14 @@ const Header = () => {
                         {/* Logo Insert Here */}
                         <div className="md:ml-0 ml-5">
                             <Link href="/" className="  flex items-center">
-                                <h1 className="ml-2   md:text-2xl sm:text-xl text-lg font-bold text-primary ">
+                                <h1 className="   md:text-2xl sm:text-xl text-lg font-bold text-primary ">
                                     Academic Portal
                                 </h1>
                             </Link>
                         </div>
                     </div>
                     <div className=" hidden lg:flex md:flex">
-                        <ul className="lg-menu menu-horizontal flex items-center p-0 font-semibold   text-black space-x-5">
+                        <ul className="lg-menu menu-horizontal flex items-center p-0 font-semibold   text-primary space-x-5">
                             {menuItems}
                         </ul>
                     </div>
