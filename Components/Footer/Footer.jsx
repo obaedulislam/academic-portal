@@ -28,7 +28,7 @@ const Footer = () => {
                                     <label htmlFor="floating_outlined3" className="absolute text-sm text-gray-500  duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white  px-2 peer-focus:px-2 peer-focus:text-gray-900 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-1">Email Address</label>
                                 </div>
                                 <div className='w-[30%]'>
-                                    <button className='px-2.5 py-2.5  text-white bg-accent hover:bg-secondary capitalize w-full'>Subscribe</button>
+                                    <button className='px-2.5 py-2.5  text-white bg-accent hover:bg-secondary capitalize w-full font-semibold'>Subscribe</button>
                                 </div>
                             </div>
                         </div>
@@ -136,8 +136,9 @@ const Footer = () => {
                 {/* Footer Top End */}
 
                 <div className="text-center p-6 bg-base-200">
-                    <span>Copyright © 2022
-                        <a className="text-gray-600 font-semibold" href="https://modasserjasim.com"> Academic Portal.</a> All Rights Reserved by Obaedul Islam. </span>
+                    <p>Copyright © 2022
+                        <span className="text-primary font-semibold"> Academic Portal.</span> All Rights Reserved by <a className='font-semibold' href="http://obaedulislam.com/" target="_blank">Obaedul Islam</a>.
+                    </p>
                 </div>
                 {/* Footer Bottom End */}
             </footer>
