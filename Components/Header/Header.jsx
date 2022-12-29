@@ -57,7 +57,7 @@ const Header = () => {
     );
 
     return (
-        <div className="bg-white  border border-gray-200">
+        <div className="bg-white  border border-gray-200 fixed w-full top-0 z-50">
             <div className="max-w-[1200px] mx-auto p-0 ">
                 <div className="navbar flex justify-between bg-base-100 p-0">
                     <div className="">
@@ -77,7 +77,7 @@ const Header = () => {
                         <div className="md:ml-0 ml-5">
                             <Link href="/" className="  flex items-center">
                                 <h1 className="   md:text-2xl sm:text-xl text-lg font-bold text-primary ">
-                                    Academic Portal
+                                    Creative University
                                 </h1>
                             </Link>
                         </div>

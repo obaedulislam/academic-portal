@@ -104,7 +104,7 @@ const Login = () => {
 
             <div>
               <p className="text-primary text-center mt-3 sm:text-md text-sm">
-                New to Academic Portal?
+                New to Creative University?
                 <Link href="/signup" className="text-accent font-bold">
                   <span> Create new account</span>
                 </Link>

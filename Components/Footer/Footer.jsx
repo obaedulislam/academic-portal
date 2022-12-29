@@ -16,11 +16,11 @@ const Footer = () => {
                                 <Link className='flex items-center' href='/'>
                                     <div className="md:ml-0">
                                         <h1 className=" md:text-2xl sm:text-xl text-lg font-bold text-primary ">
-                                            Academic Portal
+                                            Creative University
                                         </h1>
                                     </div>
                                 </Link>
-                                <p className=' mt-3'>Academic portal is a teacher student portal for educational institution. We can see user profile, enrolled course & offered course.</p>
+                                <p className=' mt-3'>Landmark to create future. Excellence in teaching, learning, and research Transform your life with endless opportunities. </p>
                             </div>
                             <div className=' flex mt-5'>
                                 <div className='relative  w-[67%]'>
@@ -79,7 +79,7 @@ const Footer = () => {
                             </p>
                             <p className="flex items-center justify-center md:justify-start mb-4">
                                 <IoMdMail className='mr-2'></IoMdMail>
-                                info@academic-portal.com
+                                info@creative-university.com
                             </p>
                             <p className="flex items-center justify-center md:justify-start mb-3">
                                 <IoCall className='mr-2'></IoCall>
@@ -137,7 +137,7 @@ const Footer = () => {
 
                 <div className="text-center p-6 bg-base-200">
                     <p>Copyright © 2022
-                        <span className="text-primary font-semibold"> Academic Portal.</span> All Rights Reserved by <a className='font-semibold' href="http://obaedulislam.com/" target="_blank">Obaedul Islam</a>.
+                        <span className="text-primary font-semibold"> Creative University.</span> All Rights Reserved by <a className='font-semibold' href="http://obaedulislam.com/" target="_blank">Obaedul Islam</a>.
                     </p>
                 </div>
                 {/* Footer Bottom End */}
