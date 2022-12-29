@@ -7,7 +7,6 @@ import { signOut } from "next-auth/react"
 
 const Header = () => {
     const { data: session } = useSession();
-    console.log(session);
 
     const menuItems = (
         <>
@@ -58,7 +57,7 @@ const Header = () => {
     );
 
     return (
-        <div className="bg-white  border border-gray-200 fixed w-full top-0 z-50">
+        <div className="bg-white  border border-gray-200 ">
             <div className="max-w-[1200px] mx-auto p-0 ">
                 <div className="navbar flex justify-between bg-base-100 p-0">
                     <div className="">
