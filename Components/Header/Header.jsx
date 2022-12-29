@@ -8,6 +8,7 @@ import { signOut } from "next-auth/react"
 const Header = () => {
     const { data: session } = useSession();
     console.log(session);
+
     const menuItems = (
         <>
             <li>
