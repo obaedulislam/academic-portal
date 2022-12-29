@@ -5,12 +5,12 @@ import "../styles/globals.css";
 
 export default function App({ Component, pageProps, session }) {
   return (
-    <>
+    <div>
       <SessionProvider session={session}>
         <Header></Header>
         <Component {...pageProps} />
         <Footer></Footer>
       </SessionProvider>
-    </>
+    </div>
   );
 }
