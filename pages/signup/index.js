@@ -1,17 +1,17 @@
 import Link from "next/link";
-import Header from "../../Components/Header/Header";
 import { useState } from "react";
 import { BiLogIn } from "react-icons/bi";
-import {
-  BsEye,
-  BsEyeSlashFill,
-  BsFillEyeSlashFill,
-  BsGithub,
-} from "react-icons/bs";
+import { BsEye, BsFillEyeSlashFill, BsGithub } from "react-icons/bs";
 import { FcGoogle } from "react-icons/fc";
+import { signIn, signOut, useSession } from "next-auth/react";
 
 const SignUp = () => {
+  const { data: session } = useSession();
   const [passwordShown, setPasswordShown] = useState(false);
+
+  const handleSignUp = (event) => {
+    event.preventDefault();
+  };
 
   return (
     <>
@@ -27,26 +27,33 @@ const SignUp = () => {
               </p>
 
               <div className="sm:mt-5 mt-3">
-                <button
+                <Link
+                  onClick={() => signIn()}
+                  href=""
                   className="btn btn-outline border-gray-300 duration-300 hover:bg-gray-200 hover:text-secondary hover:border-gray-300 w-full mt-3 flex items-center text-md text-secondary font-semibold capitalize "
                   type="submit"
                 >
                   <FcGoogle className="md:text-2xl text-xl  "></FcGoogle>
                   <span className="ml-1 ">Continue With Google</span>
-                </button>
-                <button
+                </Link>
+                <Link
+                  onClick={(e) => {
+                    e.preventDefault();
+                    signIn();
+                  }}
+                  href="api/auth/signIn"
                   className="btn btn-outline border-gray-300 duration-300 hover:bg-gray-200 hover:text-secondary hover:border-gray-300 w-full mt-3 flex items-center text-md text-secondary font-semibold capitalize "
                   type="submit"
                 >
                   <BsGithub className="md:text-2xl text-xl text-primary "></BsGithub>
                   <span className="ml-1">Continue With GitHub</span>
-                </button>
+                </Link>
                 <div className="divider sm:text-xl text-md font-bold text-accent font-special tracking-wider">
                   Or
                 </div>
               </div>
 
-              <form>
+              <form onSubmit={() => handleSignUp}>
                 <div className="relative">
                   <input
                     name="email"
